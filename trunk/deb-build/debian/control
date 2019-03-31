@@ -1,4 +1,4 @@
-Source: btsl
+Source: btpls
 Section: main
 Priority: standart
 Maintainer: Alex Vesev <alex.vesev@gmail.com>
@@ -6,9 +6,9 @@ Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
 Homepage: https://github.com/alvesev
 
-Package: btsl
+Package: btpls
 Architecture: all
 Depends: bash (>=4), bluez, jq, xscreensaver
-Description: BTSL - Bluetooth Screen Locker.
- BTSL - Bluetooth Screen Locker - Bluetooth proximity sensor and screen locker. Screensaver is launched based on bluetooth proximity value and treshold. A device's MAC address specified in configuration file.
+Description: BTPLS - Bluetooth Proximity Screen Locker.
+ BTPLS - Bluetooth Proximity Screen Locker - Bluetooth proximity sensor and screen locker. Screensaver is launched based on bluetooth proximity value and treshold. A device's MAC address specified in configuration file.
 

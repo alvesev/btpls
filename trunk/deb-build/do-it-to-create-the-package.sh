@@ -3,7 +3,7 @@
 #
 #  Copyright 2007-2019 Alex Vesev
 #
-#  This file is part of BTPLS - Bluetooth Screen Locker.
+#  This file is part of BTPLS - Bluetooth Proximity Screen Locker.
 #
 #  BTPLS is free software: you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -25,7 +25,7 @@ PS4="CMD:\${0}:\${LINENO}:pid=\${$}: "
 set -x
 set -e
 
-declare -r packageName="btsl"
+declare -r packageName="btpls"
 
 echo "INFO:${0}:${LINENO}: Building the package."
 fakeroot dpkg-buildpackage -b -us -uc # XXX - GPG sign?

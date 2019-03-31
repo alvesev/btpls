@@ -1,5 +1,5 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: btsl
+Upstream-Name: btpls
 Source: https://github.com/alvesev
 Files: *
 Copyright: Alex Vesev <alex.vesev@gmail.com>, https://github.com/alvesev
